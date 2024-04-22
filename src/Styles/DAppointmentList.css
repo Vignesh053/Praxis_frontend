@@ -1,0 +1,38 @@
+.appointment-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.appointment-table th,
+.appointment-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.appointment-table th {
+  background-color: #f2f2f2;
+}
+
+.create-prescription-btn {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.create-prescription-btn:hover {
+  background-color: #45a049;
+}

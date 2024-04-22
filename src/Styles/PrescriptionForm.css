@@ -1,0 +1,59 @@
+.prescription-form {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #90cfea59;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.prescription-form .medication-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.prescription-form .medication-form select,
+.prescription-form .medication-form input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.prescription-form .medication-form button {
+  padding: 5px;
+  background-color: transparent;
+  color: #f44336;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.prescription-form .medication-form button:hover {
+  color: #d32f2f;
+}
+
+.prescription-form button[type="submit"],
+.prescription-form button[type="button"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin: 0px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.prescription-form button[type="submit"]:hover,
+.prescription-form button[type="button"]:hover {
+  background-color: #45a049;
+}
+
+.prescription-form #remove-btn{
+    background-color: #f44336;
+}

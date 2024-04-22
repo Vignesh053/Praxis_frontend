@@ -1,0 +1,51 @@
+.appointment-container {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.appointment-container .appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-container .form-group {
+  margin-bottom: 1rem;
+}
+
+.appointment-container label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.appointment-container select,
+.appointment-container #appointmentTime,
+.appointment-container textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  width: 70%;
+}
+
+.appointment-container textarea {
+  resize: vertical;
+}
+
+.appointment-container .appointment-submit {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.appointment-container .appointment-submit:hover {
+  background-color: #0056b3;
+}
