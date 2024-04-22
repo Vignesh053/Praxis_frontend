@@ -180,7 +180,7 @@ INSERT INTO medications (name, description) VALUES
 ### Doctor Portal
 - if user has admin role, the user will automatically routed to doctor portal
 
-![Doctor Portal](https://github.com/Vignesh053/Praxis_frontend/blob/383ce81347d2a43b57d9155fecbec1c71cc5d773/screenshots/doc_login.png)
+![Doctor Portal](screenshots/doc_login.png)
 
 ![Doctor Portal](https://github.com/Vignesh053/Praxis_frontend/blob/383ce81347d2a43b57d9155fecbec1c71cc5d773/screenshots/doc_portal.png)
 
