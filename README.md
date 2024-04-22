@@ -109,29 +109,27 @@ backend:
    for medication table
 
    ```
-
-INSERT INTO medications (name, description) VALUES
-('Amoxicillin', 'Used to treat a wide variety of bacterial infections.');
-
-INSERT INTO medications (name, description) VALUES
-('Ibuprofen', 'Used to reduce fever and treat pain or inflammation.');
-
-INSERT INTO medications (name, description) VALUES
-('Metformin', 'Used to improve blood sugar control in adults with type 2 diabetes.');
-
-INSERT INTO medications (name, description) VALUES
-('Amlodipine', 'Used to treat chest pain (angina) and other conditions caused by coronary artery disease.');
-
-INSERT INTO medications (name, description) VALUES
-('Azithromycin', 'Used to treat a wide variety of bacterial infections, such as respiratory infections.');
-
-INSERT INTO medications (name, description) VALUES
-('Hydrochlorothiazide', 'Used to treat high blood pressure and fluid retention (edema).');
-
-INSERT INTO medications (name, description) VALUES
-('Omeprazole', 'Used to treat certain stomach and esophagus problems (such as acid reflux).');
-
-```
+   INSERT INTO medications (name, description) VALUES
+   ('Amoxicillin', 'Used to treat a wide variety of bacterial infections.');
+   
+   INSERT INTO medications (name, description) VALUES
+   ('Ibuprofen', 'Used to reduce fever and treat pain or inflammation.');
+   
+   INSERT INTO medications (name, description) VALUES
+   ('Metformin', 'Used to improve blood sugar control in adults with type 2 diabetes.');
+   
+   INSERT INTO medications (name, description) VALUES
+   ('Amlodipine', 'Used to treat chest pain (angina) and other conditions caused by coronary artery disease.');
+   
+   INSERT INTO medications (name, description) VALUES
+   ('Azithromycin', 'Used to treat a wide variety of bacterial infections, such as respiratory infections.');
+   
+   INSERT INTO medications (name, description) VALUES
+   ('Hydrochlorothiazide', 'Used to treat high blood pressure and fluid retention (edema).');
+   
+   INSERT INTO medications (name, description) VALUES
+   ('Omeprazole', 'Used to treat certain stomach and esophagus problems (such as acid reflux).');
+   ```
 
 4. Set up the frontend:
 
@@ -178,7 +176,7 @@ INSERT INTO medications (name, description) VALUES
 ### Doctor Portal
 - if user has admin role, the user will automatically routed to doctor portal
 
-![Doctor Portal](screenshots/doc_login.png)
+![Doctor Portal](https://github.com/Vignesh053/Praxis_frontend/blob/da0cf44312b66cb9ef346aa517254ef0a34c59f9/screenshots/doc_login.png)
 
 ![Doctor Portal](https://github.com/Vignesh053/Praxis_frontend/blob/383ce81347d2a43b57d9155fecbec1c71cc5d773/screenshots/doc_portal.png)
 
