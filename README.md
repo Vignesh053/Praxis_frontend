@@ -110,8 +110,6 @@ backend:
 
    ```
 
-   ```
-
 INSERT INTO medications (name, description) VALUES
 ('Amoxicillin', 'Used to treat a wide variety of bacterial infections.');
 
@@ -204,10 +202,8 @@ INSERT INTO medications (name, description) VALUES
 
 ![Appointment](https://github.com/Vignesh053/Praxis_frontend/blob/383ce81347d2a43b57d9155fecbec1c71cc5d773/screenshots/doc_presc3.png)
 
-![Appointment](https://raw.githubusercontent.com/Vignesh053/Praxis_frontend/383ce81347d2a43b57d9155fecbec1c71cc5d773/screenshots/doc_presc1.png)
 
 
 - the prescription added to patient
 
 ![Prescription](https://github.com/Vignesh053/Praxis_frontend/blob/383ce81347d2a43b57d9155fecbec1c71cc5d773/screenshots/patient_presc2.png)
-```
